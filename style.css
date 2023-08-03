@@ -1,0 +1,666 @@
+*{
+    font-family: 'Oswald',sans-serif;
+    margin: 0;
+}
+
+.bodyTodos{
+    background-color: white;
+}
+
+.mainContactos{
+    background-image: url("imagenes/imagenForm.jpg");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*Index*/
+
+#paginas{
+    text-align: center;
+    background-color: white;
+    padding: 1% 11% 1% 11%;
+    border: 1px solid rgb(74, 224, 86) ;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;  
+    justify-content:space-evenly;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav#paginas a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(72, 187, 72);
+    text-decoration: none;
+    background-color: white;
+    font-weight: bolder;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    border: 1px solid rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.titulo1Index{
+    text-align: center;
+    color:  rgb(72, 187, 72);
+    font-weight: 100; 
+    text-decoration: underline;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textoPagina{
+    align-content: center;
+    align-items: center;
+    padding: 2% 12% 2% 12%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    /*box-sizing: border-box;
+    flex-wrap: wrap;*/  
+    display: block;
+}
+
+.textoHome{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.parrafoIndex{
+    text-align: justify;
+    padding: 1%;
+    margin:1%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.imagenRecetaHome {
+    width: 70%;
+    height: 50%;
+    margin-left: 25px;
+}
+
+.imagenTiendasHome {
+    width: 70%;
+    height: 50%;
+    margin-left: 40px;
+}
+
+.imagenRestauranteHome{
+    width: 70%;
+    height: 50%;
+    margin-left: 40px;
+}
+
+.guiaHome{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.ulPaginasInternas{
+    text-align: left;
+    margin-left: 0%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ulPaginasInternas a{
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.paginasInternas a:hover{
+    text-decoration: underline;
+}
+
+.liPaginasInternas{
+    text-align: left;
+    margin-left: 30%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Recetas*/
+
+.recetas{
+    margin: 0;
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    text-align:center;
+    color: rgb(15, 14, 14);
+    font-weight: normal; 
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(37, 117, 37);
+    font-size: 15px;
+}
+
+.videosRecetas{
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*donde comer*/
+
+.textoDondeComer{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccionDondeComer{
+    /*align-content: center;*/
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+    /*display: flex;
+    position: relative;*/
+    font-family: 'Oswald', sans-serif;
+    /*box-sizing: border-box;
+    flex-wrap: wrap;*/
+}
+
+.titulo2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.parrafosDondeComer{
+    text-align: justify;
+    padding: 1%;
+    margin:1%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.guiaDondeComer{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.titulo3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.titulo4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+iframe{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.framheim{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.hans{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.flamasBurgerCo{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+/*Contactos*/
+
+.contenidoFormulario{
+    padding: 20px;
+}
+
+.formContactos{
+	width:60%;
+    height: 50%;
+	padding:25px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#7dc789;
+}
+
+.tituloContactos {
+    text-align: center;
+    color: white;
+    font-size: 15px; 
+    margin: auto;
+    padding: 1px 1px 15px 1px;
+    font-weight: bold;
+    background-color: #7dc789;
+    font-family: 'Oswald', sans-serif;
+}
+
+form label{
+	width: 75px;
+	font-weight: normal;
+    font-size: 15px;
+	display:inline-block;
+    background-color: #7dc789;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:90px;
+	padding:5px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color: #f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding: 8px 16px;
+	margin-top:32px;
+    margin-bottom: 32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#137708;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:50px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:10px 0;
+    resize: none;
+	display:block;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer{
+    background-color: rgb(72, 187, 72);
+    padding: 1% 11% 1% 11%;
+    border: 1px solid rgb(72, 187, 72) ;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;  
+}
+
+footer a{
+    background-color: rgb(72, 187, 72);
+}
+
+.redSocial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redes{
+    width: 20%;  
+}
+
+/*Medias queries*/
+
+@media (min-width: 768px) {
+    nav#paginas a{
+        display:inline;
+        padding: 0% 2% 0% 2%;
+        font-size: 20px;
+    }
+
+    .titulo1Index{
+        font-size: 50px;
+    }
+
+    .textoPagina{
+        display: flex;
+    }
+
+    .imagenRecetaHome {
+        width: 50%;
+    }
+    
+    .imagenTiendasHome {
+        width: 40%;
+    }
+    
+    .imagenRestauranteHome{
+        width: 60%;
+    }
+
+    .parrafoIndex{
+        font-size: 20px;
+    }
+
+    .ulPaginasInternas{
+        font-size: 20px;
+    }
+
+    .liPaginasInternas{
+        font-size: 20px;
+    }
+
+    /*Recetas*/
+
+    .recetas{
+        margin: 2px 1px 10px 3px;
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        font-size: 20px ;
+        text-align:center;
+    }
+
+    /*Donde comer*/
+
+    .titulo2{
+        font-size: 22px;
+    }
+
+    .titulo3{
+        font-size: 20px;
+    }
+    
+    .titulo4{
+        font-size: 20px;
+    }
+
+    .parrafosDondeComer{
+        font-size: 20px;
+    }
+
+    .reseñasFramheim{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .reseñasFramheim article{
+        width: 48%;
+    }
+    
+    .reseñasHans{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .reseñasHans article{ 
+        width: 48%;
+    }
+        
+    .reseñasFlamasBurgerCo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .reseñasFlamasBurgerCo article{
+        width: 48%;
+    }
+
+    .formContactos{
+        width:30%;
+        height: 100%;
+        margin: 0 15px 0 55px;
+    }
+    
+    .tituloContactos{
+        font-size: 25px; 
+    }
+
+    form label{
+        font-size: 20px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+        padding:15px 10px;
+
+    }
+    
+    form input[type="submit"]{
+        font-size: 20px;
+    } 
+    
+    textarea{
+        height:70px;		
+        font-size: 15px;
+    }
+
+    footer{
+        font-size: 20px;
+    }
+
+    .redes{
+        width: 8%;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    nav#paginas a{
+        font-size: 25px;
+    }
+
+    .titulo1Index{
+        font-size: 70px;
+    }
+
+    .parrafoIndex{
+        font-size: 25px;
+    }
+
+    .imagenRecetaHome {
+        width: 40%;
+    }
+    
+    .imagenTiendasHome {
+        width: 30%;
+    }
+    
+    .imagenRestauranteHome{
+        width: 60%;
+    }
+
+    .ulPaginasInternas{
+        font-size: 25px;
+    }
+
+    .liPaginasInternas{
+        font-size: 25px;
+    }
+
+    div.paginasInternas {
+        font-size: 25px;
+    }
+
+    /*Recetas*/
+
+    .recetas{
+        font-size: 25px;
+        grid-template-columns: repeat(3,33%);
+    }
+
+    /*Donde comer*/
+
+    .titulo2{
+        font-size: 27px;
+    }
+
+    .titulo3{
+        font-size: 25px;
+    }
+    
+    .titulo4{
+        font-size: 25px;
+    }
+
+    .parrafosDondeComer{
+        font-size: 25px;
+    }
+
+    .reseñasFramhein{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .reseñasFramhein article{
+        width: 48%;
+    }
+
+    .reseñasHans{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*.reseñasHans article{ 
+        width: 70%;
+    }*/
+
+     .reseñasFlamasBurgerCo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    /*.reseñasFlamasBurgerCo article{
+        width: 70%;
+    }*/
+
+    .formContactos{
+        height: 80%;
+    }
+    
+    .tituloContactos{
+        font-size: 30px; 
+    }
+    
+    form label{
+        font-size: 25px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+        width: 200px;
+        margin: 8px 0 0 40px;
+        font-size: 17px;
+    }
+    
+    form input[type="submit"]{
+        font-size: 25px;
+    } 
+    
+    textarea{
+        height:90px;
+        font-size: 20px;
+    }
+
+    .redes{
+        width: 5%;
+    }
+    
+}
+
+/*@media (min-width: 2560px){
+    nav#paginas a{
+        font-size: 60px;
+    }
+
+    .titulo1Index{
+        font-size: 120px;
+    }
+
+    .parrafoIndex{
+        font-size: 60px;
+    }
+
+    .ulPaginasInternas{
+        font-size: 60px;
+    }
+
+    .liPaginasInternas{
+        font-size: 60px;
+    }
+
+    div.paginasInternas {
+        font-size: 60px;
+    }
+
+    .formContactos{
+        width:20%;
+        height: 50%;
+        margin:0 15px 0 55px;
+    }
+    
+    .tituloContactos{
+        font-size: 60px; 
+    }
+    
+    form label{
+        font-size: 50px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+        width: 200px;
+        margin: 8px 0 10px 10px;
+        font-size: 20px;
+    }
+    
+    form input[type="submit"]{
+        font-size: 25px;
+    } 
+    
+    textarea{
+        font-size: 25px;
+    }
+}*/
