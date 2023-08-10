@@ -343,6 +343,20 @@ footer a{
     grid-template-columns: 1fr 1fr;
 }
 
+.redSocial{
+    font-size: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redFacebook{
+    text-align: right;
+}
+
+.redInstagram{
+    text-align: left;
+}
+
 .redes{
     width: 20%;  
 }
