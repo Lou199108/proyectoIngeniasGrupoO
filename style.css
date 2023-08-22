@@ -62,15 +62,6 @@ a{
     font-family: 'Oswald', sans-serif;
 }
 
-.textoPagina{
-    align-content: center;
-    align-items: center;
-    padding: 2% 12% 2% 12%;
-    position: relative;
-    font-family: 'Oswald', sans-serif;
-    display: block;
-}
-
 .textoHome{
     border-color: rgb(74, 224, 86);
     border-style: groove;
@@ -78,6 +69,15 @@ a{
     margin: 1%;
     padding: 1%;
     font-family: 'Oswald', sans-serif;
+}
+
+.textoPagina{
+    align-content: center;
+    align-items: center;
+    padding: 2% 12% 2% 12%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    display: block;
 }
 
 .parrafoIndex{
@@ -139,22 +139,34 @@ div.paginasInternas a:hover{
 
 /*Recetas*/
 
-.recetas{
-    margin: 0;
+.textoRecetas{
     border-color: rgb(74, 224, 86);
     border-style: groove;
     border-radius: 10px 10px 10px 10px;
-    text-align:center;
-    color: rgb(15, 14, 14);
-    font-weight: normal; 
     margin: 1%;
     padding: 1%;
     font-family: 'Oswald', sans-serif;
-    color:rgb(37, 117, 37);
+}
+
+.seccionRecetas{
+    align-content: center;
+    align-items: center;
+    padding: 2% 12% 2% 12%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+
+.parrafoRecetas{
     font-size: 15px;
 }
 
-.videosRecetas{
+.videoRecetas{
+    margin: 0;
+    text-align:center;
+    color: rgb(15, 14, 14);
+    margin: 1%;
+    padding: 1%;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -745,7 +757,7 @@ footer a{
     form input{
         font-size: 25px;
     }
-    
+
     .redes{
         width: 10%;
     }
