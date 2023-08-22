@@ -68,8 +68,6 @@ a{
     padding: 2% 12% 2% 12%;
     position: relative;
     font-family: 'Oswald', sans-serif;
-    /*box-sizing: border-box;
-    flex-wrap: wrap;*/  
     display: block;
 }
 
@@ -160,6 +158,92 @@ div.paginasInternas a:hover{
     border-radius: 10px 10px 10px 10px;
 }
 
+/* Tiendas */
+
+.introTiendas{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccionTiendas2{
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*.titulo2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}*/
+
+.parrafosTienda{
+    text-align: justify;
+    padding: 1%;
+    margin:1%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tiendaslp{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.tiendasFisicas{
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*.titulo3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 50px;
+}*/
+
+.taraVerde{
+    display: block;
+    text-align: center;
+}
+
+.esUnMonton{
+    display: block;
+    text-align: center;
+}
+
+.amazoniaHelados{
+    display: block;
+    text-align: center;
+}
+
+.laCompostera{
+    display: block;
+    text-align: center;
+}
+
+.imagenTiendas{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+
+.ubicacionTiendas{
+    width: 100%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
 /*donde comer*/
 
 .textoDondeComer{
@@ -172,14 +256,9 @@ div.paginasInternas a:hover{
 }
 
 .seccionDondeComer{
-    /*align-content: center;*/
     align-items: center;
     padding: 1% 10% 1% 10%;
-    /*display: flex;
-    position: relative;*/
     font-family: 'Oswald', sans-serif;
-    /*box-sizing: border-box;
-    flex-wrap: wrap;*/
 }
 
 .titulo2{
@@ -244,79 +323,6 @@ iframe{
     border: none;
     width: 100%;
 }
-/* Tiendas */
-.introTiendas{
-    border-color: rgb(74, 224, 86);
-    border-style: groove;
-    border-radius: 10px 10px 10px 10px;
-    margin: 1%;
-    padding: 1%;
-    font-family: 'Oswald', sans-serif;
-}
-.seccionTiendas2{
-    align-items: center;
-    padding: 1% 10% 1% 10%;
-    font-family: 'Oswald', sans-serif;
-}
-.titulo2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-}
-.parrafosTienda{
-    text-align: justify;
-    padding: 1%;
-    margin:1%;
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-}
-.tiendaslp{
-    border-color: rgb(74, 224, 86);
-    border-style: groove;
-    border-radius: 10px 10px 10px 10px;
-    margin: 1%;
-    padding: 1%;
-}
-.tiendasFisicas{
-    align-items: center;
-    padding: 1% 10% 1% 10%;
-    font-family: 'Oswald', sans-serif;
-}
-.titulo3{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 16px;
-    line-height: 50px;
-}
-.taraVerde{
-    display: block;
-    text-align: center;
-}
-.esUnMonton{
-    display: block;
-    text-align: center;
-}
-.amazoniaHelados{
-    display: block;
-    text-align: center;
-}
-.laCompostera{
-    display: block;
-    text-align: center;
-}
-.imagenTiendas{
-    margin: 0;
-    padding: 0;
-    border: none;
-    width: 100%;
-}
-
-.ubicacionTiendas{
-    width: 100%;
-    height: 30%;
-    display: block;
-    margin: 0 auto;
-}
 
 /*Contactos*/
 
@@ -336,7 +342,7 @@ iframe{
 .tituloContactos {
     text-align: center;
     color: white;
-    font-size: 15px; 
+    font-size: 20px; 
     margin: auto;
     padding: 1px 1px 15px 1px;
     font-weight: bold;
@@ -361,9 +367,9 @@ form input[type="email"]{
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color: #f6f6f6;
-	margin:8px 0;
+	margin:8px 10px 10px 50px;
 	display:inline-block;
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -377,12 +383,16 @@ form input[type="submit"]{
 	display:block;
 	color:#fff;
 	background-color:#137708;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Oswald', sans-serif;
 } 
 
 form input[type="submit"]:hover{
 	cursor:pointer;
+}
+
+form input{
+    font-size: 15px;
 }
 
 textarea{
@@ -394,7 +404,7 @@ textarea{
 	margin:10px 0;
     resize: none;
 	display:block;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -462,6 +472,11 @@ footer a{
         width: 40%;
     }
     
+    #tiendaGiro{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .imagenRestauranteHome{
         width: 60%;
     }
@@ -486,6 +501,23 @@ footer a{
         grid-template-columns: repeat(2,50%);
         font-size: 20px ;
         text-align:center;
+    }
+
+    /* Tiendas */
+    .parrafosTienda{
+        font-size: 20px;
+    }
+
+    /*.titulo3{
+        font-size: 20px;
+    }*/
+
+    .imagenTiendas{
+        width: 60%;
+    }
+
+    .ubicacionTiendas{
+    width: 60%;
     }
 
     /*Donde comer*/
@@ -536,47 +568,37 @@ footer a{
         width: 48%;
     }
 
-    /* Tiendas */
-    .parrafosTienda{
-        font-size: 20px;
-    }
-    .titulo3{
-        font-size: 20px;
-    }
-    .imagenTiendas{
-        width: 60%;
-    }
-    .ubicacionTiendas{
-    width: 60%;
-    }
+    /*Contactos*/
 
     .formContactos{
-        width:30%;
+        width:45%;
         height: 100%;
         margin: 0 15px 0 55px;
     }
     
     .tituloContactos{
-        font-size: 25px; 
+        font-size: 30px; 
     }
 
     form label{
-        font-size: 20px;
+        font-size: 25px;
     }
     
     form input[type="text"],
     form input[type="email"]{
         padding:15px 10px;
+        width: 150px;
+        font-size: 22px;
 
     }
     
     form input[type="submit"]{
-        font-size: 20px;
+        font-size: 22px;
     } 
     
     textarea{
         height:70px;		
-        font-size: 15px;
+        font-size: 22px;
     }
 
     footer{
@@ -589,7 +611,7 @@ footer a{
     
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     nav#paginas a{
         font-size: 25px;
     }
@@ -633,6 +655,24 @@ footer a{
         grid-template-columns: repeat(3,33%);
     }
 
+    /* Tiendas */
+
+    .parrafosTienda{
+        font-size: 25px;
+    }
+
+    /*.titulo3{
+        font-size: 25px;
+    }*/
+
+    .imagenTiendas{
+        width: 50%;
+    }
+
+    .ubicacionTiendas{
+    width: 50%;
+    }
+
     /*Donde comer*/
 
     .titulo2{
@@ -666,62 +706,46 @@ footer a{
         flex-wrap: wrap;
     }
 
-    /*.reseñasHans article{ 
-        width: 70%;
-    }*/
-
-     .reseñasFlamasBurgerCo{
+    .reseñasFlamasBurgerCo{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
-    /*.reseñasFlamasBurgerCo article{
-        width: 70%;
-    }*/
-
-    /* Tiendas */
-    .parrafosTienda{
-        font-size: 25px;
-    }
-    .titulo3{
-        font-size: 25px;
-    }
-    .imagenTiendas{
-        width: 50%;
-    }
-    .ubicacionTiendas{
-    width: 50%;
-    }
+    /*Contactos*/
 
     .formContactos{
         height: 80%;
     }
     
     .tituloContactos{
-        font-size: 30px; 
+        font-size: 35px; 
     }
     
     form label{
-        font-size: 25px;
+        font-size: 27px;
     }
     
     form input[type="text"],
     form input[type="email"]{
-        width: 200px;
+        width: 300px;
         margin: 8px 0 0 40px;
-        font-size: 17px;
+        font-size: 24px;
     }
     
     form input[type="submit"]{
-        font-size: 25px;
+        font-size: 27px;
     } 
     
     textarea{
         height:90px;
-        font-size: 20px;
+        font-size: 24px;
     }
 
+    form input{
+        font-size: 25px;
+    }
+    
     .redes{
         width: 10%;
     }
