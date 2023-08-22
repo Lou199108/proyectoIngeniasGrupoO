@@ -148,6 +148,10 @@ div.paginasInternas a:hover{
     font-family: 'Oswald', sans-serif;
 }
 
+.parrafoRecetas{
+    font-size: 15px;
+}
+
 .seccionRecetas{
     align-content: center;
     align-items: center;
@@ -157,12 +161,7 @@ div.paginasInternas a:hover{
     display: block;
 }
 
-.parrafoRecetas{
-    font-size: 15px;
-}
-
 .videoRecetas{
-    margin: 0;
     text-align:center;
     color: rgb(15, 14, 14);
     margin: 1%;
@@ -214,17 +213,21 @@ div.paginasInternas a:hover{
     font-family: 'Oswald', sans-serif;
 }
 
-/*.titulo3{
+.titulo3{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     text-decoration: underline;
     font-size: 16px;
     line-height: 50px;
-}*/
+}
 
 .taraVerde{
     display: block;
     text-align: center;
+}
+
+.linksInstagram{
+    text-align: left;
 }
 
 .esUnMonton{
@@ -244,9 +247,14 @@ div.paginasInternas a:hover{
 
 .imagenTiendas{
     margin: 0;
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
     width: 100%;
+}
+
+.linksInstagram{
+    font-size: 15px;
 }
 
 .ubicacionTiendas{
@@ -507,25 +515,39 @@ footer a{
 
     /*Recetas*/
 
-    .recetas{
-        margin: 2px 1px 10px 3px;
+    .parrafoRecetas{
+        font-size: 20px;
+    }
+
+    #articleRecetas2{
+        margin-left: 70px;
+        display: flex;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    .articleRecetas{
+        margin: 5px 1px 10px 5px;
         display: grid;
-        grid-template-columns: repeat(2,50%);
-        font-size: 20px ;
-        text-align:center;
+        grid-template-columns: repeat(2,50%);  
     }
 
     /* Tiendas */
+
     .parrafosTienda{
         font-size: 20px;
     }
 
-    /*.titulo3{
-        font-size: 20px;
-    }*/
+    .titulo3{
+        font-size: 22px;
+    }
 
     .imagenTiendas{
         width: 60%;
+    }
+
+    .linksInstagram{
+        font-size: 20px;
     }
 
     .ubicacionTiendas{
@@ -539,7 +561,7 @@ footer a{
     }
 
     .titulo3{
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .titulo4{
@@ -662,9 +684,8 @@ footer a{
 
     /*Recetas*/
 
-    .recetas{
-        font-size: 25px;
-        grid-template-columns: repeat(3,33%);
+    .parrafoRecetas{
+        font-size: 27px;
     }
 
     /* Tiendas */
@@ -673,12 +694,16 @@ footer a{
         font-size: 25px;
     }
 
-    /*.titulo3{
+    .titulo3{
         font-size: 25px;
-    }*/
+    }
 
     .imagenTiendas{
         width: 50%;
+    }
+
+    .linksInstagram{
+        font-size: 25px;
     }
 
     .ubicacionTiendas{
