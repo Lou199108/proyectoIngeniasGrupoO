@@ -573,31 +573,31 @@ footer a{
         font-size: 20px;
     }
 
-    .reseñasFramheim{
+    /*.reseñasFramheim{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    }*/
     
     .reseñasFramheim article{
         width: 48%;
     }
     
-    .reseñasHans{
+    /*.reseñasHans{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    }*/
 
     .reseñasHans article{ 
         width: 48%;
     }
         
-    .reseñasFlamasBurgerCo{
+    /*.reseñasFlamasBurgerCo{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    }*/
 
     .reseñasFlamasBurgerCo article{
         width: 48%;
@@ -729,26 +729,26 @@ footer a{
         font-size: 25px;
     }
 
-    .reseñasFramhein{
+    /*.reseñasFramhein{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    }*/
 
     .reseñasFramhein article{
         width: 48%;
     }
 
-    .reseñasHans{
+    /*.reseñasHans{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .reseñasFlamasBurgerCo{
+    /*.reseñasFlamasBurgerCo{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
+    }*/
 
     /*Contactos*/
 
