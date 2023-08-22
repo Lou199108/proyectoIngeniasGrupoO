@@ -244,6 +244,44 @@ iframe{
     border: none;
     width: 100%;
 }
+/* Tiendas */
+.introTiendas{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+.seccionTiendas2{
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+    font-family: 'Oswald', sans-serif;
+}
+.titulo2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.parrafosTienda{
+    text-align: justify;
+    padding: 1%;
+    margin:1%;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.tiendaslp{
+    border-color: rgb(74, 224, 86);
+    border-style: groove;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+}
+.tiendasFisicas{
+    align-items: center;
+    padding: 1% 10% 1% 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
 
 /*Contactos*/
 
