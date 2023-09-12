@@ -790,7 +790,7 @@ footer a{
     
 }
 
-/*@media (min-width: 2560px){
+@media (min-width: 2560px){
     nav#paginas a{
         font-size: 60px;
     }
@@ -843,4 +843,4 @@ footer a{
     textarea{
         font-size: 25px;
     }
-}*/
+}
