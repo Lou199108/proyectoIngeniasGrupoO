@@ -790,7 +790,7 @@ footer a{
     
 }
 
-@media (min-width: 2560px){
+@media (min-width: 1440px){
     nav#paginas a{
         font-size: 60px;
     }
@@ -816,8 +816,8 @@ footer a{
     }
 
     .formContactos{
-        width:20%;
-        height: 50%;
+        width:40%;
+        height: 30%;
         margin:0 15px 0 55px;
     }
     
@@ -826,18 +826,19 @@ footer a{
     }
     
     form label{
-        font-size: 50px;
+        font-size: 40px;
+        padding: 0 100px 0 10px;   
     }
-    
+
     form input[type="text"],
     form input[type="email"]{
-        width: 200px;
-        margin: 8px 0 10px 10px;
-        font-size: 20px;
+        width: 300px;
+        font-size: 30px;
     }
     
     form input[type="submit"]{
         font-size: 25px;
+        margin: 0 0 0 0;
     } 
     
     textarea{
