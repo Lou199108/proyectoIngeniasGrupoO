@@ -5,4 +5,3 @@ while (!nombre || !/^[a-zA-Z]+$/.test(nombre)) {
 }
 
 alert ("Bienvenido/a " + nombre + " a nuestra página 'Vegan Style'")
-
