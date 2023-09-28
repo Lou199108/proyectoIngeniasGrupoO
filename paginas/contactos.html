@@ -37,10 +37,14 @@
             <form class="formContactos" action="#" target="" method="get" name="formDatosPersonales">
                 <h3 class="tituloContactos"> Contáctanos</h3>
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required>
+
+                    <p id="mensajeNombre"></p>
                 
                     <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                    <p id="mensajeApellido"></p>
                 
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required >
@@ -49,7 +53,7 @@
                     <input type ="text" name="asunto" id="asunto" placeholder="Escriba su consulta">
                 
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" for="mensaje" placeholder="Describa brevemente en menos de 250 caracteres" maxlength="250"></textarea>
+                    <textarea name="mensaje" for="mensaje" placeholder="Describa brevemente en menos de 250 caracteres" maxlength="250" required></textarea>
                     
                     <input type="submit" name="enviar" value="Enviar datos">
                     
@@ -77,6 +81,6 @@
     </div>
     
 </footer>
-
+    <script src="../script.js"></script>
 </body>
 </html>
