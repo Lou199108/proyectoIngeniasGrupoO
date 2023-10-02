@@ -27,6 +27,21 @@ inputNombre.addEventListener("keyup", () => {
   }
 })
 
+//Expresión regular que acepta solo letras del alfabeto, mayúsculas, minúsculas y espacios en blanco:
+const inputNombre1 = document.querySelector("#nombre");
+
+inputNombre1.addEventListener("keyup", function(event) {
+  const texto = event.target.value;
+
+  // Validamos que el texto solo contenga letras y espacios en blanco
+  const esValido = texto.match(/^[a-zA-ZáéíóúñÑ ]+$/);
+
+  if (!esValido) {
+    // Si el texto no es válido, lo limpiamos
+    event.target.value = "";
+  }
+});
+
 inputApellido.addEventListener("keyup", () => {
   let mensaje1;
   if(inputApellido.value.length < 3 ){
@@ -37,6 +52,20 @@ inputApellido.addEventListener("keyup", () => {
   }
 })
 
+//Expresión regular que acepta solo letras del alfabeto, mayúsculas, minúsculas y espacios en blanco:
+const inputApellido1 = document.querySelector("#apellido");
+
+inputApellido1.addEventListener("keyup", function(event) {
+  const texto = event.target.value;
+
+  // Validamos que el texto solo contenga letras y espacios en blanco
+  const esValido = texto.match(/^[a-zA-ZáéíóúñÑ ]+$/);
+
+  if (!esValido) {
+    // Si el texto no es válido, lo limpiamos
+    event.target.value = "";
+  }
+});
 
 }
 
