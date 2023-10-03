@@ -45,7 +45,7 @@ inputNombre1.addEventListener("keyup", function(event) {
 inputApellido.addEventListener("keyup", () => {
   let mensaje1;
   if(inputApellido.value.length < 3 ){
-      mensaje1 = "El nombre tiene que tener al menos 3 caracteres"
+      mensaje1 = "El apellido tiene que tener al menos 3 caracteres"
       document.getElementById("mensajeApellido").innerText = mensaje1;
   }else{
       document.getElementById("mensajeApellido").innerText = " "
