@@ -162,6 +162,4 @@ document.getElementById("carrito").appendChild(article)
 })
 
 
-
-
 }
