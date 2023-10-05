@@ -345,6 +345,76 @@ iframe{
     width: 100%;
 }
 
+/*Almacèn*/
+
+.productos{
+    margin: 2px;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+}
+
+article{
+    text-decoration: underline;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    margin: 25px;
+    text-align: center;
+    color:  rgb(72, 187, 72);
+    font-weight: 100; 
+    text-decoration: underline;
+    border-style: dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    text-align: left;
+    color:  rgb(72, 187, 72);
+    text-decoration:underline;
+    margin: 1%;
+    padding: 1%;
+    font-size: 25px;
+}
+
+img{
+    width: 50%;
+    margin: 25px;
+}
+
+p{
+    margin-top: 2px ;
+    margin-left: 50px;
+}
+
+button{
+    margin-top: 2px ;
+    margin-left: 50px;
+}
+
+article2{
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+article2 h2{
+    color: black;
+    flex-wrap: wrap ;
+}
+
 /*Contactos*/
 
 .contenidoFormulario{
@@ -602,6 +672,38 @@ footer a{
     .reseñasFlamasBurgerCo article{
         width: 48%;
     }
+
+    /*Almacèn*/
+/*
+    .productos{
+        
+    }
+
+    article{
+        
+    }
+
+    h1{
+        
+    }
+
+    h2{
+        
+    }
+
+    img{
+       
+    }
+
+    p{
+        
+    }
+
+    button{
+        
+    }
+*/
+
 
     /*Contactos*/
 
