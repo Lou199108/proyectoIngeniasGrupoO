@@ -7,6 +7,8 @@ while (!nombre || !/^[a-zA-Z]+$/.test(nombre)) {
 alert ("Bienvenido/a " + nombre + " a nuestra página 'Vegan Style'")
 <<<<<<< HEAD
 */
+
+
 //Seccion "contactos". Formulario
 
 //Mensaje de error si el nombre/apellido no cumple con ciertos requisitos
@@ -69,6 +71,29 @@ inputApellido1.addEventListener("keyup", function(event) {
 
 }
 
+window.onload = () => {
+  let boton = document.querySelector("submit");
+
+  localStorage.setItem("enviar")
+  
+  boton.onclick = (event) => {
+      event.preventDefault()
+      
+      let inputNombre = document.getElementById("nombre").value;
+
+      if(inputNombre == localStorage.getItem("enviar")){
+          console.log("Su nombre fue ingresado");
+          
+          sessionStorage.setItem("nombre", inputNombre)
+          console.log(sessionStorage)
+      }else{
+          console.log("No se pudo ingresar su nombre")
+      }
+  }
+}
+
+
+//Almacen
 //JSON de "Almacen":
 let jsonDeProductos = `[
   {
