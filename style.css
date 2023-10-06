@@ -603,6 +603,28 @@ footer a{
         grid-template-columns: repeat(2,50%);  
     }
 
+    /* Estilo del Buscador */
+
+    input[type="text"] {
+        width: 300px;
+        margin-bottom: 100px;
+        font-size: 20px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        padding: 45px;
+      }
+      
+      button[type="botonBuscar"]{
+        font-size: 20px;
+    } 
+
     /* Tiendas */
 
     .parrafosTienda{
