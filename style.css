@@ -64,7 +64,7 @@ a{
 
 .textoHome{
     border-color: rgb(74, 224, 86);
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -78,6 +78,11 @@ a{
     position: relative;
     font-family: 'Oswald', sans-serif;
     display: block;
+    border-color: rgb(74, 224, 86);
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
 }
 
 .parrafoIndex{
@@ -159,6 +164,11 @@ div.paginasInternas a:hover{
     position: relative;
     font-family: 'Oswald', sans-serif;
     display: block;
+    border-style: none;
+}
+
+.articlerecetas{
+    border-style: none;
 }
 
 .videoRecetas{
@@ -221,16 +231,16 @@ div.paginasInternas a:hover{
     line-height: 50px;
 }
 
-.taraVerde{
+/*.taraVerde{
     display: block;
     text-align: center;
-}
+}*/
 
 .linksInstagram{
     text-align: left;
 }
 
-.esUnMonton{
+/*.esUnMonton{
     display: block;
     text-align: center;
 }
@@ -243,7 +253,7 @@ div.paginasInternas a:hover{
 .laCompostera{
     display: block;
     text-align: center;
-}
+}*/
 
 .imagenTiendas{
     margin: 0;
@@ -268,7 +278,7 @@ div.paginasInternas a:hover{
 
 .textoDondeComer{
     border-color: rgb(74, 224, 86);
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -279,6 +289,10 @@ div.paginasInternas a:hover{
     align-items: center;
     padding: 1% 10% 1% 10%;
     font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(74, 224, 86); 
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
 }
 
 .titulo2{
@@ -296,7 +310,7 @@ div.paginasInternas a:hover{
 
 .guiaDondeComer{
     border-color: rgb(74, 224, 86);
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -355,16 +369,15 @@ iframe{
 }
 
 article{
-    text-decoration: underline;
-    border-style:dotted;
-    border-color:rgb(74, 224, 86);
+    text-decoration: none;
+    border: 1px solid rgb(74, 224, 86); 
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
     font-family: 'Oswald', sans-serif;
 }
 
-h1{
+/*h1{
     margin: 25px;
     text-align: center;
     color:  rgb(72, 187, 72);
@@ -376,10 +389,23 @@ h1{
     margin: 1%;
     padding: 1%;
     font-family: 'Oswald', sans-serif;
+}*/
+
+.tituloAlmacen{
+    text-align: center;
+    color:  rgb(72, 187, 72);
+    font-weight: 100; 
+    text-decoration: underline;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
 }
 
-h2{
-    text-align: left;
+h2{ 
+    text-align: center;
     color:  rgb(72, 187, 72);
     text-decoration:underline;
     margin: 1%;
@@ -387,19 +413,26 @@ h2{
     font-size: 25px;
 }
 
+h3{
+    text-align: left;
+    color:  rgb(72, 187, 72);
+    text-decoration:underline;
+    margin-left: 15px;
+    padding: 1%;
+    font-size: 25px;
+}
+
 img{
     width: 50%;
-    margin: 25px;
+    margin: 5px 5px 5px 40px;
 }
 
 p{
-    margin-top: 2px ;
-    margin-left: 50px;
+    margin: 2px 0 2px 20px;
 }
 
 button{
-    margin-top: 2px ;
-    margin-left: 50px;
+    margin: 2px 0 2px 20px;
 }
 
 article2{
@@ -410,9 +443,17 @@ article2{
     color: black;
 }
 
-article2 h2{
+article2 h3{
     color: black;
     flex-wrap: wrap ;
+}
+
+section#carrito{
+    border-style: groove;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
 }
 
 /*Contactos*/
@@ -543,7 +584,7 @@ footer a{
 @media (min-width: 768px) {
     nav#paginas a{
         display:inline;
-        padding: 0% 2% 0% 2%;
+        padding: 0% 1% 0% 1%;
         font-size: 20px;
     }
 
@@ -695,37 +736,28 @@ footer a{
         width: 48%;
     }
 
-    /*Almacèn*/
-/*
-    .productos{
-        
-    }
+    /*Almacen*/
 
-    article{
-        
-    }
-
-    h1{
-        
+    .tituloALmacen{
+        font-size: 50px;
     }
 
     h2{
-        
-    }
-
-    img{
-       
+        font-size: 22px;
     }
 
     p{
-        
+        font-size: 20px;
     }
 
     button{
-        
+        font-size: 20px;
     }
-*/
 
+   #productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     /*Contactos*/
 
@@ -873,6 +905,24 @@ footer a{
         flex-wrap: wrap;
         justify-content: space-evenly;
     }*/
+
+    /*Almacen*/
+
+    .tituloALmacen{
+        font-size: 70px;
+    }
+ 
+    h2{
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    button{
+        font-size: 25px;
+    }
 
     /*Contactos*/
 

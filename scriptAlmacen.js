@@ -20,6 +20,12 @@ let jsonDeProductos = `[
     "imagen": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2022/04/05/624c19d8b3c37.jpeg"
   },
   {
+    "producto": "Cúrcuma",
+    "precio": "$1400",
+    "cantidad": "80 unidades",
+    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/04/02/curcuma-fresca-rallada.jpeg"
+  },
+  {
     "producto": "Falafel",
     "precio": "$1000",
     "cantidad": "500 unidades",
@@ -30,12 +36,6 @@ let jsonDeProductos = `[
     "precio": "$2500",
     "cantidad": "150 unidades",
     "imagen": "https://bebidavegetal.com/wp-content/uploads/bebida-de-soja.jpg"
-  },
-  {
-    "producto": "Cúrcuma",
-    "precio": "$1400",
-    "cantidad": "80 unidades",
-    "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/04/02/curcuma-fresca-rallada.jpeg"
   }
 ]`
 
@@ -48,8 +48,8 @@ for (let i = 0; i < jsonConvertido.length; i++){
   //crear un article
   let article = document.createElement("article")
   //crear h2
-  let h2 = document.createElement("h2")
-  h2.innerText = jsonConvertido[i].producto
+  let h3 = document.createElement("h3")
+  h3.innerText = jsonConvertido[i].producto
   //crear imagen
   let img = document.createElement("img")
   img.style.width = "50%"
@@ -64,7 +64,7 @@ for (let i = 0; i < jsonConvertido.length; i++){
   let boton = document.createElement("button")
   boton.innerText = "Agregar al carrito"
   //terminar de armar el article
-  article.appendChild(h2)
+  article.appendChild(h3)
   article.appendChild(img)
   article.appendChild(p)
   article.appendChild(c)
@@ -85,8 +85,8 @@ for (let i = 0; i < botones.length; i++){
 
   let article2 = document.createElement("article2")
   //crear h2
-  let h2 = document.createElement("h2")
-  h2.innerText = localStorage.getItem("productoProducto")
+  let h3 = document.createElement("h3")
+  h3.innerText = localStorage.getItem("productoProducto")
 
   //crear p
   let p = document.createElement("p")
@@ -96,7 +96,7 @@ for (let i = 0; i < botones.length; i++){
   let c = document.createElement("p")
   c.innerText = localStorage.getItem("productoCantidad")
 
-  article2.appendChild(h2)
+  article2.appendChild(h3)
   article2.appendChild(p)
   article2.appendChild(c)
 
