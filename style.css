@@ -78,11 +78,11 @@ a{
     position: relative;
     font-family: 'Oswald', sans-serif;
     display: block;
-    border-color: rgb(74, 224, 86);
+    /*border-color: rgb(74, 224, 86);
     border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
-    padding: 1%;
+    padding: 1%;*/
 }
 
 .parrafoIndex{
