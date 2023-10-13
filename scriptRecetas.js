@@ -57,12 +57,25 @@
 //};
 
 window.onload = async () => {
-    const buscador = document.querySelector("#buscador");
+    const boton = document.querySelector("#botonBuscar");
     const resultados = document.querySelector("#resultados");
+    async function hacerFetch (url, options, consulta = "" ) {
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+            console.log(result);
+        } catch (error) {
+        console.error(error);
+        }
+    }
+    
 
-    buscador.addEventListener("keyup", (e) => {
+
+
+    boton.addEventListener("click", (e) => {
         // Obtenemos la consulta del usuario.
         const consulta = e.target.value;
+        e.preventDefault()
 
     const url = 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/random?tags=vegan&number=1';
     const options = {
@@ -73,17 +86,8 @@ window.onload = async () => {
         }
     };
     
-    async function hacerFetch (numero=1) {
-        try {
-            const response = await fetch(url, options);
-            const result = await response.text();
-            console.log(result);
-        } catch (error) {
-        console.error(error);
-        }
+    hacerFetch(url, options, consulta)
+
     }
-    })
-
-   // console.log("hola");
+    )
 }
-
