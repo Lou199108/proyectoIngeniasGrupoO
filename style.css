@@ -21,7 +21,7 @@
     background-color: white;
     padding: 1% 11% 1% 11%;
     border: 1px solid rgb(74, 224, 86) ;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 5px 5px 5px 5px;  
     justify-content:space-evenly;
     font-family: 'Oswald', sans-serif;
@@ -53,6 +53,7 @@ a{
     text-align: center;
     color:  rgb(72, 187, 72);
     font-weight: 100; 
+    font-size: 30px;
     text-decoration: underline;
     border-style:dotted;
     border-color:rgb(74, 224, 86);
@@ -89,7 +90,7 @@ a{
     text-align: justify;
     padding: 1%;
     margin:1%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -122,7 +123,7 @@ a{
 .ulPaginasInternas{
     text-align: left;
     margin-left: 0%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -138,15 +139,33 @@ div.paginasInternas a:hover{
 .liPaginasInternas{
     text-align: left;
     margin-left: 30%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
 /*Recetas*/
 
+/* Estilo del Buscador */
+
+input[type="text"] {
+    width: 100px;
+    font-size: 13px;
+    margin: 5% 1% 1% 12%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button[type="botonBuscar"]{
+    font-size: 13px;
+} 
+
 .textoRecetas{
     border-color: rgb(74, 224, 86);
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -154,7 +173,11 @@ div.paginasInternas a:hover{
 }
 
 .parrafoRecetas{
-    font-size: 15px;
+    text-align: justify;
+    padding: 1%;
+    margin: 1%;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .seccionRecetas{
@@ -167,7 +190,13 @@ div.paginasInternas a:hover{
     border-style: none;
 }
 
-.articlerecetas{
+.titulo2{
+    font-size: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.articleRecetas{
     border-style: none;
 }
 
@@ -183,7 +212,7 @@ div.paginasInternas a:hover{
 
 .introTiendas{
     border-color: rgb(74, 224, 86);
-    border-style: groove;
+    border-style: solid;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -196,16 +225,11 @@ div.paginasInternas a:hover{
     font-family: 'Oswald', sans-serif;
 }
 
-/*.titulo2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-}*/
-
 .parrafosTienda{
     text-align: justify;
     padding: 1%;
     margin:1%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -227,7 +251,7 @@ div.paginasInternas a:hover{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 50px;
 }
 
@@ -238,6 +262,7 @@ div.paginasInternas a:hover{
 
 .linksInstagram{
     text-align: left;
+    font-size: 15px;
 }
 
 /*.esUnMonton{
@@ -263,10 +288,6 @@ div.paginasInternas a:hover{
     width: 100%;
 }
 
-.linksInstagram{
-    font-size: 15px;
-}
-
 .ubicacionTiendas{
     width: 100%;
     height: 30%;
@@ -276,57 +297,56 @@ div.paginasInternas a:hover{
 
 /*donde comer*/
 
-.textoDondeComer{
-    border-color: rgb(74, 224, 86);
-    border-style: solid;
+.tituloDondeComer{
+    text-align: center;
+    color:  rgb(72, 187, 72);
+    font-weight: 100; 
+    font-size: 30px;
+    text-decoration: underline;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
+    line-height: 1.5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textoDondeComer{
+    border-color: rgb(74, 224, 86);
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px; 
     font-family: 'Oswald', sans-serif;
 }
 
 .seccionDondeComer{
     align-items: center;
-    padding: 1% 10% 1% 10%;
     font-family: 'Oswald', sans-serif;
-    border: 1px solid rgb(74, 224, 86); 
+    border-color: rgb(74, 224, 86); 
+    border-style: solid;
+    border-width: 2px;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
 }
 
-.titulo2{
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-}
-
 .parrafosDondeComer{
     text-align: justify;
-    padding: 1%;
-    margin:1%;
-    font-size: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 13px;
     font-family: 'Oswald', sans-serif;
 }
 
 .guiaDondeComer{
     border-color: rgb(74, 224, 86);
     border-style: solid;
-    border-radius: 10px 10px 10px 10px;
-    margin: 1%;
-    padding: 1%;
-}
-
-.titulo3{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 16px;
-    line-height: 50px;
+    border-radius: 8px 10px 8px 10px;
 }
 
 .titulo4{
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     line-height: 30px;
 }
@@ -359,7 +379,21 @@ iframe{
     width: 100%;
 }
 
-/*Almacèn*/
+/*Almacén*/
+
+.tituloAlmacen{
+    text-align: center;
+    color:  rgb(72, 187, 72);
+    font-weight: 100; 
+    font-size: 30px;
+    text-decoration: underline;
+    border-style:dotted;
+    border-color:rgb(74, 224, 86);
+    border-radius: 10px 10px 10px 10px;
+    margin: 1%;
+    padding: 1%;
+    font-family: 'Oswald', sans-serif;
+}
 
 .productos{
     margin: 2px;
@@ -370,34 +404,9 @@ iframe{
 
 article{
     text-decoration: none;
-    border: 1px solid rgb(74, 224, 86); 
-    border-radius: 10px 10px 10px 10px;
-    margin: 1%;
-    padding: 1%;
-    font-family: 'Oswald', sans-serif;
-}
-
-/*h1{
-    margin: 25px;
-    text-align: center;
-    color:  rgb(72, 187, 72);
-    font-weight: 100; 
-    text-decoration: underline;
-    border-style: dotted;
-    border-color:rgb(74, 224, 86);
-    border-radius: 10px 10px 10px 10px;
-    margin: 1%;
-    padding: 1%;
-    font-family: 'Oswald', sans-serif;
-}*/
-
-.tituloAlmacen{
-    text-align: center;
-    color:  rgb(72, 187, 72);
-    font-weight: 100; 
-    text-decoration: underline;
-    border-style:dotted;
-    border-color:rgb(74, 224, 86);
+    border-color: rgb(74, 224, 86); 
+    border-style: solid;
+    border-width: 2px;
     border-radius: 10px 10px 10px 10px;
     margin: 1%;
     padding: 1%;
@@ -410,7 +419,7 @@ h2{
     text-decoration:underline;
     margin: 1%;
     padding: 1%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h3{
@@ -419,7 +428,7 @@ h3{
     text-decoration:underline;
     margin-left: 15px;
     padding: 1%;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 img{
@@ -428,11 +437,16 @@ img{
 }
 
 p{
-    margin: 2px 0 2px 20px;
+    /*margin: 2px 0 2px 20px;*/
+    font-size: 13px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 button{
-    margin: 2px 0 2px 20px;
+    /*margin: 2px 0 2px 20px;*/
+    font-size: 13px;
+    margin-left: 40px;
 }
 
 article2{
@@ -474,7 +488,7 @@ section#carrito{
 .tituloContactos {
     text-align: center;
     color: white;
-    font-size: 20px; 
+    font-size: 25px; 
     margin: auto;
     padding: 1px 1px 15px 1px;
     font-weight: bold;
@@ -515,7 +529,7 @@ form input[type="submit"]{
 	display:block;
 	color:#fff;
 	background-color:#137708;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Oswald', sans-serif;
 } 
 
@@ -524,7 +538,7 @@ form input[type="submit"]:hover{
 }
 
 form input{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 textarea{
@@ -585,7 +599,7 @@ footer a{
     nav#paginas a{
         display:inline;
         padding: 0% 1% 0% 1%;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .titulo1Index{
@@ -619,6 +633,7 @@ footer a{
 
     .ulPaginasInternas{
         font-size: 20px;
+        padding: 2%;
     }
 
     .liPaginasInternas{
@@ -627,8 +642,24 @@ footer a{
 
     /*Recetas*/
 
+    /* Estilo del Buscador */
+
+    input[type="text"] {
+        width: 300px;
+        font-size: 20px;
+    }
+    
+    button[type="botonBuscar"]{
+        font-size: 20px;
+    } 
+
     .parrafoRecetas{
         font-size: 20px;
+        margin-left: 2px
+    }
+
+    .titulo2{
+        font-size: 22px;
     }
 
     #articleRecetas2{
@@ -644,28 +675,6 @@ footer a{
         grid-template-columns: repeat(2,50%);  
     }
 
-    /* Estilo del Buscador */
-
-    input[type="text"] {
-        width: 300px;
-        margin-bottom: 100px;
-        font-size: 20px;
-      }
-      
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      
-      li {
-        padding: 45px;
-      }
-      
-      button[type="botonBuscar"]{
-        font-size: 20px;
-    } 
-
     /* Tiendas */
 
     .parrafosTienda{
@@ -673,7 +682,7 @@ footer a{
     }
 
     .titulo3{
-        font-size: 22px;
+        font-size: 21px;
     }
 
     .imagenTiendas{
@@ -689,69 +698,60 @@ footer a{
     }
 
     /*Donde comer*/
-
-    .titulo2{
-        font-size: 22px;
-    }
-
-    .titulo3{
-        font-size: 22px;
-    }
     
+    .tituloDondeComer{
+        font-size: 50px;
+        margin-top: 1.4%;
+        margin-left: 0.5%;
+        margin-bottom:0.5%;
+    }
+
     .titulo4{
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .parrafosDondeComer{
         font-size: 20px;
     }
-
-    /*.reseñasFramheim{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }*/
     
     .reseñasFramheim article{
         width: 48%;
     }
-    
-    /*.reseñasHans{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }*/
 
     .reseñasHans article{ 
         width: 48%;
     }
         
-    /*.reseñasFlamasBurgerCo{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }*/
-
     .reseñasFlamasBurgerCo article{
         width: 48%;
     }
 
+    .seccionDondeComer{
+        margin: 0.5%;
+       
+    }
+
     /*Almacen*/
 
-    .tituloALmacen{
+    .tituloAlmacen{
         font-size: 50px;
+        margin:0.5%;
     }
 
     h2{
+        font-size: 30px;
+    }
+
+    h3{
         font-size: 22px;
     }
 
     p{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     button{
-        font-size: 20px;
+        font-size: 17px;
     }
 
    #productos{
@@ -768,18 +768,18 @@ footer a{
     }
     
     .tituloContactos{
-        font-size: 30px; 
+        font-size: 45px; 
     }
 
     form label{
-        font-size: 25px;
+        font-size: 22px;
     }
     
     form input[type="text"],
     form input[type="email"]{
         padding:15px 10px;
         width: 150px;
-        font-size: 22px;
+        font-size: 20px;
 
     }
     
@@ -787,17 +787,21 @@ footer a{
         font-size: 22px;
     } 
     
-    textarea{
-        height:70px;		
-        font-size: 22px;
-    }
-
-    footer{
+    form input{
         font-size: 20px;
     }
 
+    textarea{
+        height:70px;		
+        font-size: 20px;
+    }
+
+    footer{
+        font-size: 16px;
+    }
+
     .redes{
-        width: 15%;
+        width: 12%;
     }
     
 }
@@ -808,11 +812,11 @@ footer a{
     }
 
     .titulo1Index{
-        font-size: 70px;
+        font-size: 55px;
     }
 
     .parrafoIndex{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .imagenRecetaHome {
@@ -828,31 +832,35 @@ footer a{
     }
 
     .ulPaginasInternas{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .liPaginasInternas{
-        font-size: 25px;
+        font-size: 23px;
     }
 
-    div.paginasInternas {
+    /*div.paginasInternas {
         font-size: 25px;
-    }
+    }*/
 
     /*Recetas*/
 
     .parrafoRecetas{
-        font-size: 27px;
+        font-size: 23px;
+    }
+
+    .titulo2{
+        font-size: 25px;
     }
 
     /* Tiendas */
 
     .parrafosTienda{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .titulo3{
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .imagenTiendas{
@@ -860,7 +868,7 @@ footer a{
     }
 
     .linksInstagram{
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .ubicacionTiendas{
@@ -868,21 +876,20 @@ footer a{
     }
 
     /*Donde comer*/
-
-    .titulo2{
-        font-size: 27px;
-    }
-
-    .titulo3{
-        font-size: 25px;
-    }
     
-    .titulo4{
-        font-size: 25px;
+    .tituloDondeComer{
+        font-size: 55px;
     }
 
     .parrafosDondeComer{
-        font-size: 25px;
+        font-size: 23px;
+        padding: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .titulo4{
+        font-size: 24px;
     }
 
     /*.reseñasFramhein{
@@ -908,20 +915,26 @@ footer a{
 
     /*Almacen*/
 
-    .tituloALmacen{
-        font-size: 70px;
+    .tituloAlmacen{
+        font-size: 55px;
     }
  
     h2{
-        font-size: 27px;
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 25px;
     }
 
     p{
-        font-size: 25px;
+        font-size: 23px;
+        margin-left: 9%;
+        padding-left: 0;
     }
 
     button{
-        font-size: 25px;
+        font-size: 23px;
     }
 
     /*Contactos*/
@@ -931,31 +944,35 @@ footer a{
     }
     
     .tituloContactos{
-        font-size: 35px; 
+        font-size: 50px; 
     }
     
     form label{
-        font-size: 27px;
+        font-size: 25px;
     }
     
     form input[type="text"],
     form input[type="email"]{
         width: 300px;
         margin: 8px 0 0 40px;
-        font-size: 24px;
+        font-size: 23px;
     }
     
     form input[type="submit"]{
-        font-size: 27px;
+        font-size: 25px;
     } 
     
-    textarea{
-        height:90px;
-        font-size: 24px;
+     form input{
+        font-size: 23px;
     }
 
-    form input{
-        font-size: 25px;
+    textarea{
+        height:90px;
+        font-size: 23px;
+    }
+
+    footer{
+        font-size: 20px;
     }
 
     .redes{
@@ -964,58 +981,143 @@ footer a{
     
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1306px){
     nav#paginas a{
-        font-size: 60px;
+        font-size: 30px;
     }
 
     .titulo1Index{
-        font-size: 120px;
+        font-size: 60px;
     }
 
     .parrafoIndex{
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .ulPaginasInternas{
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .liPaginasInternas{
+        font-size: 20px;
+    }
+
+    .imagenRecetaHome {
+        width: 30%;
+    }
+
+    .imagenTiendasHome {
+        width: 25%;
+    }
+
+    .imagenRestauranteHome {
+        width: 50%;
+    }
+
+    /*Recetas*/
+
+    .parrafoRecetas{
+        font-size: 20px;
+    }
+
+    .titulo2{
+        font-size: 30px;
+    }
+
+    /* Tiendas */
+
+    .parrafosTienda{
+        font-size: 20px;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0;
+    }
+
+    .titulo3{
+        font-size: 28px;
+    }
+
+    .linksInstagram{
+        font-size: 23px;
+    }
+
+    .imagenTiendas {
+        width: 30%;
+    }
+
+    /*Donde comer*/
+
+    .tituloDondeComer{
         font-size: 60px;
     }
 
-    div.paginasInternas {
+    .parrafosDondeComer{
+        font-size: 20px;
+        padding: 0;
+        margin-right: 13%;
+        margin-left: 13%;
+    }
+
+    .titulo4{
+        font-size: 28px;
+    }
+
+    /*Almacen*/
+
+    .tituloAlmacen{
         font-size: 60px;
     }
 
-    .formContactos{
-        width:40%;
-        height: 30%;
-        margin:0 15px 0 55px;
+    h2{
+        font-size: 50px;
     }
-    
+
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 22px;
+    }
+
+    /*Contactos*/
+
     .tituloContactos{
-        font-size: 60px; 
+        font-size: 50px; 
     }
-    
+
     form label{
-        font-size: 40px;
-        padding: 0 100px 0 10px;   
+        font-size: 25px;
+        width: 150px;
     }
 
     form input[type="text"],
     form input[type="email"]{
-        width: 300px;
-        font-size: 30px;
+        font-size: 24px;
+        
+    }
+
+    form input[type="submit"]{
+        font-size: 24px;
+    } 
+
+    form input{
+        font-size: 23px;
+    }
+
+    textarea{
+        font-size: 23px;
     }
     
-    form input[type="submit"]{
-        font-size: 25px;
-        margin: 0 0 0 0;
-    } 
-    
-    textarea{
-        font-size: 25px;
+    footer{
+        font-size: 20px;
+    }
+
+    .redes {
+        width: 7%;
     }
 }
