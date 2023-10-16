@@ -147,3 +147,21 @@ window.onload = async () => {
     )
 };
  
+/*posible codigo que funciona de api
+
+const data = null;
+
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener('readystatechange', function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
+});
+
+xhr.open('GET', 'https://edamam-food-and-grocery-database.p.rapidapi.com/api/food-database/v2/parser?nutrition-type=cooking&category%5B0%5D=generic-foods&health%5B0%5D=alcohol-free');
+xhr.setRequestHeader('X-RapidAPI-Key', '3a07bd2b46msh997d6c5762e9781p1e9416jsn07f3f89f736e');
+xhr.setRequestHeader('X-RapidAPI-Host', 'edamam-food-and-grocery-database.p.rapidapi.com');
+
+xhr.send(data);*/
