@@ -117,6 +117,7 @@
 /*window.onload = async () => {
     const boton = document.querySelector("#botonBuscar");
     const resultados = document.querySelector("#resultados");
+    
     async function hacerFetch (url, options, consulta = "" ) {
         try {
             const response = await fetch(url, options);
@@ -126,7 +127,6 @@
         console.error(error);
         }
     }
-    
 
     boton.addEventListener("click", (e) => {
         // Obtenemos la consulta del usuario.
@@ -169,7 +169,7 @@
     xhr.send(data);
 }*/
 
-//ÚLTIMO CÓDIGO: 
+/*ÚLTIMO CÓDIGO: 
 window.onload = async () => {
     const url = 'https://edamam-food-and-grocery-database.p.rapidapi.com/api/food-database/v2/parser?nutrition-type=cooking&category%5B0%5D=generic-foods&health%5B0%5D=alcohol-free';
     const options = {
@@ -187,4 +187,57 @@ window.onload = async () => {
     } catch (error) {
         console.error(error);
     }
-}
+}*/
+window.onload = async () => {
+    const input = document.querySelector("input");
+    const boton = document.querySelector("button");
+
+    async function hacerFetch (url, options, consulta = "" ) {
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+            console.log(result)
+            let article = document.createElement("article")
+            let p = document.createElement("p")
+            let p2 = document.createElement("p")
+            let img = documen.createElement("img")
+            
+            if (result.count == 0){
+                p.innerText = "No hay coincidencias con tu búsqueda, intenta otra vez"
+                article.appendChild(p)
+            }else{
+            p.innerText = result.results[0].name
+            p2.innerText = result.results[0].description
+            img.src = result.results[0].thumbnail_url
+            
+            article.appendChild(p)
+            article.appendChild(p2)
+            article.appendChild(img)
+            document.getElementById("resultados").appendChild(article)
+            }
+           
+        } catch (error) {
+        console.error(error);
+        }
+    }
+
+    boton.addEventListener("click", (e) => {
+        // Obtenemos la consulta del usuario.
+        const consulta = e.target.value;
+        e.preventDefault()
+        
+        let valorInput = input.value;
+        
+        
+        const url = 'https://tasty.p.rapidapi.com/recipes/list?from=0&size=1&tags=under_30_minutes&q=' + valorInput;
+        const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': '3a07bd2b46msh997d6c5762e9781p1e9416jsn07f3f89f736e',
+            'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
+            }
+        };
+
+    hacerFetch(url, options, consulta) 
+    })
+};
