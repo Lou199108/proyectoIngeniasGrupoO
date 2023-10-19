@@ -199,20 +199,20 @@ window.onload = async () => {
             console.log(result)
             let article = document.createElement("article")
             let p = document.createElement("p")
-            let p2 = document.createElement("p")
-            let img = documen.createElement("img")
+            //let p2 = document.createElement("p")
+            //let img = documen.createElement("img")
             
             if (result.count == 0){
                 p.innerText = "No hay coincidencias con tu búsqueda, intenta otra vez"
                 article.appendChild(p)
             }else{
-            p.innerText = result.results[0].name
-            p2.innerText = result.results[0].description
-            img.src = result.results[0].thumbnail_url
+            //p.innerText = result.results[0].name
+            p.innerText = result.results[0].description
+            //img.src = result.results[0].thumbnail_url
             
+            //article.appendChild(p)
             article.appendChild(p)
-            article.appendChild(p2)
-            article.appendChild(img)
+            //article.appendChild(img)
             document.getElementById("resultados").appendChild(article)
             }
            
